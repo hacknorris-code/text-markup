@@ -8,7 +8,7 @@
 	<!ATTLIST type value (bold | italic | underline | code | thin | quote | blink )>
 
 <!ELEMENT media EMPTY >
-<!ATTLIST media type ( image| 3dart | video |  | | | | ) >
+<!ATTLIST media type ( image | 3dart | video | embed | audio | vector |  | ) >
 
 <!ELEMENT highlight (#PCDATA)>
 <!ATTLIST highlight color (red | orange | yellow | green | blue | grey | invert | pink | purple)>

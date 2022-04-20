@@ -1,16 +1,46 @@
-<!ELEMENT size (#PCDATA)>
+<!ELEMENT textsize (#PCDATA)>
 	<!ATTLIST size value CDATA>
 
-<!ELEMENT color (#PCDATA)>
+<!ELEMENT textcolor (#PCDATA)>
 	<!ATTLIST color value CDATA>
 
 <!ELEMENT type (#PCDATA)>
 	<!ATTLIST type value (bold | italic | underline | code | thin | quote | blink )>
 
 <!ELEMENT media EMPTY >
-<!ATTLIST media type ( image | 3dart | video | embed | audio | vector | file | link) url CDATA>
+	<!ATTLIST media type ( image | 3dart | video | embed | audio | vector | file | link) "embed" url CDATA description CDATA>
 
 <!ELEMENT highlight (#PCDATA)>
-<!ATTLIST highlight color (red | orange | yellow | green | blue | grey | invert | pink | purple)>
+	<!ATTLIST highlight color (red | orange | yellow | green | blue | grey | invert | pink | purple) "yellow">
+
 <!ELEMENT align (#PCDATA)>
-<!ATTLIST type ( center | left | right | justify )>
+	<!ATTLIST align type (center | left | right | justify) "left">
+
+<!ELEMENT list (item)>
+	<!ATTLIST list type ( round | square | plus | minus | circle | x | star | number | letter | caps | roman) "round">
+
+<!ELEMENT navbar (item)>
+
+<!ELEMENT textdirection (#PCDATA)>
+	<!ATTLIST textdirection type (ltr | rtl)>
+
+<!ELEMENT scroll (#PCDATA)>
+	<!ATTLIST scroll type ( onetime | infinite | bounce) "bounce" direction ( left | right)>
+
+<!ELEMENT meta EMPTY>
+	<!ATTLIST meta setting ( author | description | icon | title)>
+
+<!ELEMENT table (row, heading)>
+
+<!ELEMENT heading (item)>
+
+<!ELEMENT row (item)>
+
+<!ELEMENT item (#PCDATA)>
+
+<!ELEMENT search EMPTY>
+
+<!ELEMENT break EMPTY>
+
+<!ELEMENT style EMPTY>
+	<!ATTLIST style type (dark theme | light theme | hotdog theme | amoled theme | ice water theme | volcano theme | nature theme | neon theme) "dark theme">

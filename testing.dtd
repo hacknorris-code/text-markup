@@ -1,4 +1,4 @@
-<!ELEMENT text (textsize, textcolor, type, media, highlight, align, list, navbar, textdirection, scroll, search, meta, table, break, style>
+<!ELEMENT text (textsize, textcolor, type, media, highlight, align, list, navbar, textdirection, scroll, search, meta, table, break, style)+>
 
 <!ELEMENT textsize (#PCDATA)>
 	<!ATTLIST size value CDATA>

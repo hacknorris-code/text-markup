@@ -30,7 +30,7 @@
 	<!ATTLIST scroll type ( onetime | infinite | bounce) "bounce" direction ( left | right)>
 
 <!ELEMENT meta EMPTY>
-	<!ATTLIST meta setting ( author | description | icon | title)>
+	<!ATTLIST meta setting ( author | description | icon | title) content CDATA>
 
 <!ELEMENT table (row, heading)>
 

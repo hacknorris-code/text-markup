@@ -1,4 +1,4 @@
-<!ELEMENT text (textsize, cw, textcolor, type, media, highlight, align, list, navbar, textdirection, scroll, search, meta, table, break, style)+>
+<!ELEMENT text (line, textsize, cw, textcolor, type, media, highlight, align, list, navbar, textdirection, scroll, search, meta, table, break, style)+>
 
 <!ELEMENT textsize (#PCDATA)>
 	<!ATTLIST size value CDATA>
@@ -8,6 +8,8 @@
 
 <!ELEMENT type (#PCDATA)>
 	<!ATTLIST type value (bold | italic | underline | code | thin | quote | blink )>
+
+<!ELEMENT line EMPTY>
 
 <!ELEMENT cw (#PCDATA)>
 	<!ATTLIST cw decsription CDATA>

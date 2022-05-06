@@ -21,7 +21,7 @@
 	<!ATTLIST highlight color (red | orange | yellow | green | blue | grey | invert | pink | purple) "yellow">
 
 <!ELEMENT align (#PCDATA)>
-	<!ATTLIST align type (center | left | right | justify) "left">
+	<!ATTLIST align type (center | left | right | justify) "right">
 
 <!ELEMENT list (item)>
 	<!ATTLIST list type ( round | square | plus | minus | circle | x | star | number | letter | caps | roman) "round">

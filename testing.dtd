@@ -9,6 +9,9 @@
 <!ELEMENT type (#PCDATA)>
 	<!ATTLIST type value (bold | italic | underline | code | thin | quote | blink )>
 
+<!ELEMENT cw (#PCDATA)>
+	<!ATTLIST cw decsription CDATA>
+
 <!ELEMENT media EMPTY >
 	<!ATTLIST media type ( image | 3dart | video | embed | audio | vector | file | link) "embed" url CDATA description CDATA>
 

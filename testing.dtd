@@ -41,6 +41,7 @@
 <!ELEMENT item (#PCDATA)>
 
 <!ELEMENT search EMPTY>
+	<!ATTLIST search type ( link | text | media | highlights )>
 
 <!ELEMENT break EMPTY>
 

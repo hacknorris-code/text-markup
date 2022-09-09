@@ -1,0 +1,38 @@
+text {
+
+
+}
+textsize {
+    text-size : attr(size);
+}
+textcolor {
+    color : attr(color);
+}
+type[type="bold"] {
+    font-weight: bold;
+}
+type[type="italic"] {
+    font-style: italic;
+}
+type[type="underline"] {
+    text-decoration: underline;
+}
+type[type="code"] {
+    
+}
+type[type="thin"] {
+
+    
+}
+type[type="quote"] {
+
+    
+}
+type[type="blink"] {
+
+    
+}
+cw {
+
+
+}

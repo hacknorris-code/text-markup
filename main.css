@@ -1,9 +1,9 @@
 text {
-
-
+ font-size : 18px;
+ color : #eeeeee;
 }
 textsize {
-    text-size : attr(size);
+    font-size : attr(size) !important;
 }
 textcolor {
     color : attr(color);
@@ -31,8 +31,4 @@ type[type="quote"] {
 type[type="blink"] {
 
     
-}
-cw {
-
-
 }

@@ -11,7 +11,7 @@
 
 <!ELEMENT line EMPTY>
 
-<!ELEMENT cw (#PCDATA)>
+<!ELEMENT cw (item)>
 	<!ATTLIST cw decsription CDATA>
 
 <!ELEMENT media EMPTY >

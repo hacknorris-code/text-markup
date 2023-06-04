@@ -1,6 +1,7 @@
 * {
  font-size : 18px;
  color : #eeeeee;
+ background-color: #111122 ;
 }
 textsize {
     font-size : attr(size) !important;
@@ -18,17 +19,179 @@ type[type="underline"] {
     text-decoration: underline;
 }
 type[type="code"] {
-    
+ background-color : #002b36;
+ color: #839496;
+ border: 2px solid #073642;
+ border-radius: 5px;
+ padding : 5px;
+}
+type[type="code"]::selection{
+ background-color: #073642;
+ color: #839496;
 }
 type[type="thin"] {
-
-    
+ font-weight: lighter;
 }
 type[type="quote"] {
+ content: "\A";
+ white-space: pre;
+ border-left: 6px solid #333344;
+ background-color : #222233;
+}
+
+break {
+ content: "\A";
+ white-space: pre;
+ display: block;
+ margin-bottom: 1em;
+}
+type[type="blink"] {
+ animation: blinker 1s linear infinite;
+}
+
+spoiler{
+ background-color: #555555 ;
+ color: #555555;
+}
+
+spoiler:active {
+ background-color: #555555 ;
+ color: #eeeeee ;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+line {
+ border: 1px solid #aaaaaa;
+ width: 100%;
+ height: 0px;
+ content: "\A";
+ white-space: pre;
+ display: block;
+ margin-bottom: 1em;
+}
+
+align[type="center"] {
+ text-align: center;
+}
+
+align[type="left"] {
+ text-align: left;
+}
+
+align[type="right"] {
+ text-align: right;   
+}
+
+align[type="justify"] {
+ text-align: justify;    
+}
+textdirection[type="ltr"] {
+direction: lro;
+}
+textdirection[type="rtl"] {
+ direction: rlo;
+}
+
+media[type="image"] {
+
+
+}
+media[type="3dart"] {
+
+
+}
+media[type="video"] {
+
+
+}
+media[type="embed"] {
+
+
+}
+media[type="audio"] {
+
+
+}
+media[type="vector"] {
+
+
+}
+media[type="file"] {
+
+
+}
+media[type="link"] {
+
+
+}
+highlight[color="red"]{
+
+
+}
+highlight[color="orange"]{
 
     
 }
-type[type="blink"] {
+highlight[color="yellow"]{
 
+    
+}
+highlight[color="green"]{
+
+    
+}
+highlight[color="blue"]{
+
+    
+}
+highlight[color="grey"]{
+
+    
+}
+highlight[color="invert"]{
+
+    
+}
+highlight[color="pink"]{
+
+    
+}
+highlight[color="purple"]{
+
+    
+}
+list[type="round"]{
+
+}
+list[type="square"]{
+    
+}
+list[type="plus"]{
+    
+}
+list[type="minus"]{
+    
+}
+list[type="circle"]{
+    
+}
+list[type="x"]{
+    
+}
+list[type="star"]{
+    
+}
+list[type="number"]{
+    
+}
+list[type="letter"]{
+    
+}
+list[type="caps"]{
     
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE text SYSTEM "https://hacknorris-aka-penguin.github.io/text-markup/testing.dtd">
+<?xml-stylesheet type="text/css" href="https://hacknorris-aka-penguin.github.io/text-markup/main.css"?>
+<text>
+	<navbar>
+		<item>a</item>
+		<item>b</item>
+		<item>c</item>
+	</navbar>
+</text>

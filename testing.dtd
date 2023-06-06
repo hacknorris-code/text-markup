@@ -51,4 +51,4 @@
 <!ELEMENT break EMPTY>
 
 <!ELEMENT style EMPTY>
-	<!ATTLIST style type (dark theme | light theme | hotdog theme | amoled theme | ice water theme | volcano theme | nature theme | neon theme) "dark theme">
+	<!ATTLIST style type (dark theme | light theme | amoled theme) "dark theme">

@@ -102,18 +102,22 @@ line {
 
 align[type="center"] {
  text-align: center;
+ display:block;
 }
 
 align[type="left"] {
  text-align: left;
+ display:block;
 }
 
 align[type="right"] {
  text-align: right;   
+ display:block;
 }
 
 align[type="justify"] {
  text-align: justify;    
+ display:block;
 }
 
 textdirection[type="ltr"] {

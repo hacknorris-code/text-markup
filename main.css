@@ -6,6 +6,9 @@
 textsize {
     font-size : attr(size) !important;
 }
+table::before{
+content: "\n"
+}
 table {
 border: 1px solid #aaaa99;
 }

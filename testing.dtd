@@ -13,7 +13,7 @@
 	<!ATTLIST image source (jpg|png|gif)>
 <!ELEMENT type (#PCDATA)>
 	<!ATTLIST type value (bold | italic | underline | code | thin | quote | blink )>
-
+<!ELEMENT blinker (#PCDATA)>
 <!ELEMENT line EMPTY>
 
 <!ELEMENT cw (item)>

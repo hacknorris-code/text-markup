@@ -9,7 +9,8 @@
 	<!ATTLIST anchor jump uri>
 <!ELEMENT textcolor (#PCDATA)>
 	<!ATTLIST color value CDATA>
-
+<!ELEMENT image EMPTY>
+	<!ATTLIST image source (jpg|png|gif)>
 <!ELEMENT type (#PCDATA)>
 	<!ATTLIST type value (bold | italic | underline | code | thin | quote | blink )>
 

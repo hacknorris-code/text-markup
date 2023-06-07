@@ -15,6 +15,7 @@ table heading {
  display:block;
  background-color: #333344;
 border: 2px solid #aaaa99;
+ width: max-content
 }
 table row {
  display:block;

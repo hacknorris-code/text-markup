@@ -16,6 +16,9 @@ border: 2px solid #aaaa99;
 table row {
 border: 1px solid #aaaa99;
 }
+table row::after{
+content:"/n";
+}
 table item {
 border: 1px solid #aaaa99;
 }

@@ -13,6 +13,7 @@ table {
 border: 1px solid #aaaa99;
 }
 table heading {
+ display:block;
  background-color: #333344;
 border: 2px solid #aaaa99;
 }

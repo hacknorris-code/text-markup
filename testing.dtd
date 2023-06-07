@@ -1,8 +1,12 @@
 <!ELEMENT text (line, textsize, cw, textcolor, type, media, highlight, align, list, navbar, textdirection, scroll, search, meta, table, break, style)+>
-
+<!NOTATION jpg PUBLIC "JPG 1.0">
+<!NOTATION png PUBLIC "PNG 1.0">
+<!NOTATION gif PUBLIC "GIF 1.0">
+<!NOTATION uri SYSTEM "urn:schemas-microsoft-com:datatypes/uri">
 <!ELEMENT textsize (#PCDATA)>
 	<!ATTLIST size value CDATA>
-
+<!ELEMENT anchor (#PCDATA)>
+	<!ATTLIST anchor jump uri>
 <!ELEMENT textcolor (#PCDATA)>
 	<!ATTLIST color value CDATA>
 

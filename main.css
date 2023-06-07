@@ -6,6 +6,19 @@
 textsize {
     font-size : attr(size) !important;
 }
+table {
+border: 1px solid #aaaa99;
+}
+table heading {
+ background-color: #333344;
+border: 2px solid #aaaa99;
+}
+table row {
+border: 1px solid #aaaa99;
+}
+table item {
+border: 1px solid #aaaa99;
+}
 textcolor {
     color : attr(color) !important;
 }
@@ -179,7 +192,7 @@ navbar{
 position:fixed;
 top:0;
 width:100;
-background-color:#222233;
+background-color:#333344;
 overflow:hidden;
 }
 navbar item{

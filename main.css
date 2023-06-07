@@ -9,6 +9,7 @@ textsize {
 
 table {
 border: 1px solid #aaaa99;
+ width: max-content;
 }
 table heading {
  display:block;
@@ -18,6 +19,7 @@ border: 2px solid #aaaa99;
 table row {
  display:block;
 border: 1px solid #aaaa99;
+ width: max-content;
 }
 table item {
 border: 1px solid #aaaa99;

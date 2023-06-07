@@ -6,7 +6,7 @@
 <!ELEMENT textsize (#PCDATA)>
 	<!ATTLIST size value CDATA>
 <!ELEMENT anchor (#PCDATA)>
-	<!ATTLIST anchor jump uri>
+	<!ATTLIST anchor jump URL>
 <!ELEMENT textcolor (#PCDATA)>
 	<!ATTLIST color value CDATA>
 <!ELEMENT image EMPTY>

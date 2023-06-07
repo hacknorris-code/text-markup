@@ -17,10 +17,8 @@ table heading {
 border: 2px solid #aaaa99;
 }
 table row {
+ display:block;
 border: 1px solid #aaaa99;
-}
-table row::after{
-content:"\n";
 }
 table item {
 border: 1px solid #aaaa99;

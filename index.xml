@@ -7,4 +7,10 @@
 		<item>b</item>
 		<item>c</item>
 	</navbar>
+		<list type="circle">first</list>
+<list type="circle">second</list>
+<list type="circle">third</list>
+<spoiler>
+lorum ipsum dolor sit amet...
+</spoiler>
 </text>

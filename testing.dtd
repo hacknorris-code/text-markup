@@ -18,7 +18,7 @@
 	<!ATTLIST textfont type (monospace|serif|sans)>
 
 <!ELEMENT anchor (#PCDATA)>
-	<!ATTLIST anchor xmlns:xlink CDATA #FIXED "http://www.w3.org/1999/xlink" xlink:type CDATA #FIXED "simple" xlink:href CDATA>
+	<!ATTLIST anchor xmlns:xlink CDATA #IMPLIED "http://www.w3.org/1999/xlink" xlink:type CDATA #IMPLIED "simple" xlink:href CDATA>
 
 <!ELEMENT textcolor (#PCDATA)>
 	<!ATTLIST color value CDATA>
@@ -32,13 +32,13 @@
 <!ELEMENT line EMPTY>
 
 <!ELEMENT highlight (#PCDATA)>
-	<!ATTLIST highlight color (red | cyan | yellow | green | blue | grey | invert | purple) "yellow">
+	<!ATTLIST highlight color (red | cyan | yellow | green | blue | grey | invert | purple) #IMPLIED "yellow">
 
 <!ELEMENT align (#PCDATA)>
-	<!ATTLIST align type (center | left | right | justify) "right">
+	<!ATTLIST align type (center | left | right | justify) #IMPLIED "right">
 
 <!ELEMENT list (#PCDATA)>
-	<!ATTLIST list type ( round | square | plus | minus | circle | x | star | number | letter | caps | roman) "round">
+	<!ATTLIST list type ( round | square | plus | minus | circle | x | star | number | letter | caps | roman) #IMPLIED "round">
 
 <!ELEMENT navbar (item)>
 
@@ -46,7 +46,7 @@
 	<!ATTLIST textdirection type (ltr | rtl)>
 
 <!ELEMENT scroll (#PCDATA)>
-	<!ATTLIST scroll type ( onetime | infinite | bounce) "bounce" direction ( left | right)>
+	<!ATTLIST scroll type ( onetime | infinite | bounce) #IMPLIED "bounce" direction ( left | right)>
 
 <!ELEMENT meta EMPTY>
 	<!ATTLIST meta setting ( author | description | icon | title) content CDATA>

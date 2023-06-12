@@ -7,6 +7,18 @@ textsize {
     font-size : attr(size) !important;
 }
 
+textfont[type="monospace"]{
+
+}
+
+textfont[type="serif"]{
+
+}
+
+textfont[type="sans"]{
+
+}
+
 huge{
 font-size: 26px;
 }
@@ -39,6 +51,47 @@ border: 1px solid #aaaa99;
 table item {
 border: 1px solid #aaaa99;
 }
+scroll{
+display:block;
+}
+
+scroll[type="onetime"][direction="left"]{
+animation: left 15s linear;
+}
+scroll[type="infinite"][direction="left"]{
+animation: left 15s linear infinite;
+}
+scroll[type="bounce"][direction="left"]{
+animation: left 15s linear infinite alternate;
+}
+scroll[type="onetime"][direction="right"]{
+animation: right 15s linear;
+}
+scroll[type="infinite"][direction="right"]{
+animation: right 15s linear infinite;
+}
+scroll[type="bounce"][direction="right"]{
+animation: right 15s linear infinite alternate;
+}
+
+@keyframes left {
+0%{
+transform: translateX(100%);
+}
+100%{
+transform: translateX(-100%);
+}
+}
+
+@keyframes right {
+0%{
+transform: translateX(-100%);
+}
+100%{
+transform: translateX(100%);
+}
+}
+
 textcolor {
     color : attr(color) !important;
 }

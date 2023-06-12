@@ -18,7 +18,7 @@
 	<!ATTLIST textfont type (monospace|serif|sans)>
 
 <!ELEMENT anchor (#PCDATA)>
-	<!ATTLIST anchor xmlns:xlink CDATA>
+	<!ATTLIST anchor xmlns:xlink CDATA #FIXED "http://www.w3.org/1999/xlink" xlink:type CDATA #FIXED "simple" xlink:href CDATA>
 
 <!ELEMENT textcolor (#PCDATA)>
 	<!ATTLIST color value CDATA>

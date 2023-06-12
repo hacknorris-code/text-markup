@@ -70,16 +70,16 @@ type[type="blink"] {
  animation: blinker 1s linear infinite;
 }
 
-spoiler{
+type[type="spoiler"]{
  background-color: #555555 ;
  color: #555555;
 }
 
-spoiler:active {
+type[type="spoiler"]:active {
  background-color: #555555 ;
  color: #eeeeee ;
 }
-spoiler:hover {
+type[type="spoiler"]:hover {
  background-color: #555555 ;
  color: #eeeeee ;
 }

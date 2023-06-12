@@ -2,15 +2,39 @@
 <!DOCTYPE text SYSTEM "https://hacknorris-aka-penguin.github.io/text-markup/testing.dtd">
 <?xml-stylesheet type="text/css" href="https://hacknorris-aka-penguin.github.io/text-markup/main.css"?>
 <text>
-	<navbar>
-		<item>a</item>
-		<item>b</item>
-		<item>c</item>
-	</navbar>
-		<list type="circle">first</list>
-<list type="circle">second</list>
-<list type="circle">third</list>
-<spoiler>
-lorum ipsum dolor sit amet...
-</spoiler>
+	<navbar><type type="code">Welcome to text markup wiki</type></navbar>
+	<align type="center">
+	<list type="number"><type type="bold">intro:</type></list><break/>
+
+	<list type="number">text types:</list><break/>
+	here are few basic text types just inside parameters of <type type="code">&lt;type&gt;</type> element. list of usages:<break/>
+	<type type="code">&lt;type type=&quot;bold&quot;&gt;text&lt;/type&gt;</type> outputs : <type type="bold">text</type><break/>
+	<type type="code">&lt;type type=&quot;italic&quot;&gt;text&lt;/type&gt;</type> outputs: <type type="italic">text</type><break/>
+	<type type="code">&lt;type type=&quot;underline&quot;&gt;text&lt;/type&gt;</type> outputs: <type type="underline">text</type><break/>
+	<type type="code">&lt;type type=&quot;code&quot;&gt;text&lt;/type&gt;</type> outputs: <type type="code">text</type><break/>
+	<type type="code">&lt;type type=&quot;thin&quot;&gt;text&lt;/type&gt;</type> outputs: <type type="thin">text</type><break/>
+	<type type="code">&lt;type type=&quot;quote&quot;&gt;text&lt;/type&gt;</type> outputs: <type type="quote">text</type><break/>
+	<type type="code">&lt;type type=&quot;blink&quot;&gt;text&lt;/type&gt;</type> outputs: <type type="blink">text</type><break/>
+	<type type="code">&lt;type type=&quot;spoiler&quot;&gt;text&lt;/type&gt;</type> outputs: <type type="spoiler">text</type><break/>
+	<list type="number"><type type="bold">highlights:</type></list><break/>
+	in this markup language highligher have predefined set of colors:
+	<type type="code">red, yellow, green, cyan, blue, purple and grey</type> . <break/>
+	example of usage: <type type="code">&lt;highlight color=&quot;color&quot;&gt;text&lt;highlight&gt;</type> and outputs for example : <highlight color="red">text</highlight><break/> 
+		<list type="number"><type type="bold">moving marquee:</type></list><break/>
+
+		<list type="number"><type type="bold">custom text styles:</type></list><break/>
+
+		<list type="number"><type type="bold">headings:</type></list><break/>
+
+		<list type="number"><type type="bold">lists:</type></list><break/>
+
+		<list type="number"><type type="bold">tables:</type></list><break/>
+
+		<list type="number"><type type="bold">misc:</type></list><break/>
+	
+	<list type="circle"><type type="bold">work in progress:</type></list><break/>
+	anchors, embedded media, search box, custom page themes, inverted highlights<break/>
+	<line/>
+	note - that wiki was written in that markup language (what means that it works and is usable)<break/>
+</align>
 </text>

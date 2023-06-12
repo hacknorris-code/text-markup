@@ -85,13 +85,13 @@ animation: right 15s linear infinite alternate;
 transform: translateX(70%);
 }
 100%{
-transform: translateX(0%);
+transform: translateX(-70%);
 }
 }
 
 @keyframes right {
 0%{
-transform: translateX(0%);
+transform: translateX(-70%);
 }
 100%{
 transform: translateX(70%);

@@ -56,21 +56,27 @@ display:block;
 }
 
 scroll[type="onetime"][direction="left"]{
+transform:translateX(100%);
 animation: left 15s linear;
 }
 scroll[type="infinite"][direction="left"]{
+transform:translateX(100%);
 animation: left 15s linear infinite;
 }
 scroll[type="bounce"][direction="left"]{
+transform:translateX(100%);
 animation: left 15s linear infinite alternate;
 }
 scroll[type="onetime"][direction="right"]{
+	transform:translateX(-100%);
 animation: right 15s linear;
 }
 scroll[type="infinite"][direction="right"]{
+transform:translateX(-100%);
 animation: right 15s linear infinite;
 }
 scroll[type="bounce"][direction="right"]{
+transform:translateX(-100%);
 animation: right 15s linear infinite alternate;
 }
 

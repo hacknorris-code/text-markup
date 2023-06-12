@@ -7,6 +7,18 @@ textsize {
     font-size : attr(size) !important;
 }
 
+huge{
+font-size: 26px;
+}
+
+big{
+font-size: 22px;
+}
+
+small{
+font-size: 14px;
+}
+
 table {
 border: 1px solid #aaaa99;
  width: max-content;

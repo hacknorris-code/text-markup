@@ -1,23 +1,35 @@
 <!ELEMENT text (line, textsize, cw, textcolor, type, media, highlight, align, list, navbar, textdirection, scroll, search, meta, table, break, style)+>
+
 <!NOTATION jpg PUBLIC "JPG 1.0">
 <!NOTATION png PUBLIC "PNG 1.0">
 <!NOTATION gif PUBLIC "GIF 1.0">
 <!NOTATION uri SYSTEM "urn:schemas-microsoft-com:datatypes/uri">
+
+<!ELEMENT huge (#PCDATA)>
+
+<!ELEMENT big (#PCDATA)>
+
+<!ELEMENT small (#PCDATA)>
+
 <!ELEMENT textsize (#PCDATA)>
 	<!ATTLIST size value CDATA>
+
+<!ELEMENT textfont (#PCDATA)>
+	<!ATTLIST textfont type (monospace|serif|sans)>
+
 <!ELEMENT anchor (#PCDATA)>
 	<!ATTLIST anchor jump URL>
+
 <!ELEMENT textcolor (#PCDATA)>
 	<!ATTLIST color value CDATA>
+
 <!ELEMENT image EMPTY>
 	<!ATTLIST image source (jpg|png|gif)>
-<!ELEMENT type (#PCDATA)>
-	<!ATTLIST type value (bold | italic | underline | code | thin | quote | blink )>
-<!ELEMENT blinker (#PCDATA)>
-<!ELEMENT line EMPTY>
 
-<!ELEMENT cw (item)>
-	<!ATTLIST cw decsription CDATA>
+<!ELEMENT type (#PCDATA)>
+	<!ATTLIST type value (bold | italic | underline | code | thin | quote | blink | spoiler)>
+
+<!ELEMENT line EMPTY>
 
 <!ELEMENT highlight (#PCDATA)>
 	<!ATTLIST highlight color (red | cyan | yellow | green | blue | grey | invert | purple) "yellow">
@@ -47,10 +59,5 @@
 
 <!ELEMENT item (#PCDATA)>
 
-<!ELEMENT search EMPTY>
-	<!ATTLIST search type ( link | text | media | highlights )>
-
 <!ELEMENT break EMPTY>
 
-<!ELEMENT style EMPTY>
-	<!ATTLIST style type (dark theme | light theme | amoled theme) "dark theme">

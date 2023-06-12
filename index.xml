@@ -20,17 +20,18 @@
 	in this markup language highligher have predefined set of colors:
 	<type type="code">red, yellow, green, cyan, blue, purple and grey</type> . <break/>
 	example of usage: <type type="code">&lt;highlight color=&quot;color&quot;&gt;text&lt;highlight&gt;</type> and outputs for example : <highlight color="red">text</highlight><break/> 
-		<list type="number"><type type="bold">moving marquee:</type></list><break/>
 
-		<list type="number"><type type="bold">custom text styles:</type></list><break/>
+	<list type="number"><type type="bold">custom text styles:</type></list><break/>
 
-		<list type="number"><type type="bold">headings:</type></list><break/>
+	<list type="number"><type type="bold">moving marquee:</type></list><break/>
 
-		<list type="number"><type type="bold">lists:</type></list><break/>
+	<list type="number"><type type="bold">headings:</type></list><break/>
 
-		<list type="number"><type type="bold">tables:</type></list><break/>
+	<list type="number"><type type="bold">lists:</type></list><break/>
 
-		<list type="number"><type type="bold">misc:</type></list><break/>
+	<list type="number"><type type="bold">tables:</type></list><break/>
+
+	<list type="number"><type type="bold">misc:</type></list><break/>
 	
 	<list type="circle"><type type="bold">work in progress:</type></list><break/>
 	anchors, embedded media, search box, custom page themes, inverted highlights<break/>

@@ -18,7 +18,7 @@
 	<!ATTLIST textfont type (monospace|serif|sans)>
 
 <!ELEMENT anchor (#PCDATA)>
-	<!ATTLIST anchor jump URL>
+	<!ATTLIST anchor jump NOTATION uri>
 
 <!ELEMENT textcolor (#PCDATA)>
 	<!ATTLIST color value CDATA>

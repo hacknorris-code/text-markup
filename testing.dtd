@@ -32,13 +32,13 @@
 <!ELEMENT line EMPTY>
 
 <!ELEMENT highlight (#PCDATA)>
-	<!ATTLIST highlight color (red | cyan | yellow | green | blue | grey | invert | purple) #FIXED "yellow">
+	<!ATTLIST highlight color (red | cyan | yellow | green | blue | grey | invert | purple) #IMPLIED "yellow">
 
 <!ELEMENT align (#PCDATA)>
-	<!ATTLIST align type (center | left | right | justify) #FIXED "right">
+	<!ATTLIST align type (center | left | right | justify) #IMPLIED "right">
 
 <!ELEMENT list (#PCDATA)>
-	<!ATTLIST list type ( round | square | plus | minus | circle | x | star | number | letter | caps | roman) #FIXED "round">
+	<!ATTLIST list type ( round | square | plus | minus | circle | x | star | number | letter | caps | roman) #IMPLIED "round">
 
 <!ELEMENT navbar (item)>
 
@@ -46,7 +46,7 @@
 	<!ATTLIST textdirection type (ltr | rtl)>
 
 <!ELEMENT scroll (#PCDATA)>
-	<!ATTLIST scroll type ( onetime | infinite | bounce) #FIXED "bounce" direction ( left | right)>
+	<!ATTLIST scroll type ( onetime | infinite | bounce) #IMPLIED "bounce" direction ( left | right)>
 
 <!ELEMENT meta EMPTY>
 	<!ATTLIST meta setting ( author | description | icon | title) content CDATA>

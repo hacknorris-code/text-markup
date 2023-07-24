@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<!DOCTYPE text SYSTEM "https://hacknorris-aka-penguin.github.io/text-markup/testing.dtd">
-<?xml-stylesheet type="text/css" href="https://hacknorris-aka-penguin.github.io/text-markup/main.css"?>
+<!DOCTYPE text SYSTEM "https://hacknorris-code.github.io/text-markup/testing.dtd">
+<?xml-stylesheet type="text/css" href="https://hacknorris-code.github.io/text-markup/main.css"?>
 <text>
 	<navbar><type type="code">Welcome to text markup wiki</type></navbar>
 	<align type="center">

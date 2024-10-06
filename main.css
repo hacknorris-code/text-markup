@@ -3,6 +3,10 @@
  color : #eeeeee;
  background-color: #111122 ;
 }
+text{
+	 width:100vw;
+	 height:100vh;
+}
 textsize {
     font-size : attr(size) !important;
 }

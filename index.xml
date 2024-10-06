@@ -21,17 +21,26 @@
 	<type type="code">red, yellow, green, cyan, blue, purple and grey</type> . <break/>
 	example of usage: <type type="code">&lt;highlight color=&quot;color&quot;&gt;text&lt;highlight&gt;</type> and outputs for example : <highlight color="red">text</highlight><break/> 
 	<list type="number"><type type="bold">custom text styles:</type></list><break/></align>
-<scroll type="infinite" direction="right">test</scroll>
+
 	<image image="./text.jpg"/><anchor xmlns:href="https://google.com">aduvbjakbdv</anchor>
 <align type="center">
 	<list type="number"><type type="bold">moving marquee:</type></list><break/>
-
+<scroll type="infinite" direction="right">test</scroll>
 	<list type="number"><type type="bold">headings:</type></list><break/>
 
 	<list type="number"><type type="bold">lists:</type></list><break/>
-
+		<list type="dot">a thing</list>
 	<list type="number"><type type="bold">tables:</type></list><break/>
-
+		<table>
+		<row>
+			<column>1</column>
+			<column>2</column>
+		</row>
+		<row>
+			<column>3</column>
+			<column>4</column>
+		</row>
+		</table>
 	<list type="number"><type type="bold">misc:</type></list><break/>
 	
 	<list type="circle"><type type="bold">work in progress:</type></list><break/>

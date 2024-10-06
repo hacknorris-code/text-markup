@@ -12,15 +12,15 @@ textsize {
 }
 
 textfont[type="monospace"]{
-
+	font-family: monospace;
 }
 
 textfont[type="serif"]{
-
+	font-family: serif;
 }
 
 textfont[type="sans"]{
-
+	font-family: sans-serif;
 }
 
 huge{

@@ -148,7 +148,7 @@ type[type="blink"] {
 
 type[type="spoiler"]{
  background-color: #555555 ;
- color: #555555;
+ content:"";
 }
 
 type[type="spoiler"]:active {

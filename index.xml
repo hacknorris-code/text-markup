@@ -22,7 +22,7 @@
 	example of usage: <type type="code">&lt;highlight color=&quot;color&quot;&gt;text&lt;highlight&gt;</type> and outputs for example : <highlight color="red">text</highlight><break/> 
 	<list type="number"><type type="bold">custom text styles:</type></list><break/></align>
 
-	<image image="./text.jpg"/><anchor xlink:type="simple" xlink:href="https://google.com">aduvbjakbdv</anchor>
+	<image xlink:type="simple" xlink:show="embed" xlink:href="./text.jpg"/><anchor xlink:type="simple" xlink:href="https://google.com">aduvbjakbdv</anchor>
 <align type="center">
 	<list type="number"><type type="bold">moving marquee:</type></list><break/>
 <scroll type="infinite" direction="right">test</scroll>

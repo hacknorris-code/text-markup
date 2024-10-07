@@ -33,12 +33,12 @@
 	<list type="number"><type type="bold">tables:</type></list><break/>
 		<table>
 		<row>
-			<column>1</column>
-			<column>2</column>
+			<item>1</item>
+			<item>2</item>
 		</row>
 		<row>
-			<column>3</column>
-			<column>4</column>
+			<item>3</item>
+			<item>4</item>
 		</row>
 		</table>
 	<list type="number"><type type="bold">misc:</type></list><break/>

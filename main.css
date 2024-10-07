@@ -87,19 +87,19 @@ scroll[type="bounce"][direction="right"]{
 
 @keyframes left {
 	0%{
-		transform: translateX(100%);
+		transform: translateX(50%);
 	}
 	100%{
-		transform: translateX(0%);
+		transform: translateX(-50%);
 	}
 }
 
 @keyframes right {
 	0%{
-		transform: translateX(0%);
+		transform: translateX(-50%);
 	}
 	100%{
-		transform: translateX(100%);
+		transform: translateX(50%);
 	}
 }
 

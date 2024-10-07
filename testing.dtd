@@ -1,9 +1,9 @@
-<!ELEMENT text (line, textsize, cw, textcolor, type, media, highlight, align, list, navbar, textdirection, scroll, search, meta, table, break, style)+>
+<!ELEMENT text (#PCDATA)>
 
 <!NOTATION jpg PUBLIC "JPG 1.0">
 <!NOTATION png PUBLIC "PNG 1.0">
 <!NOTATION gif PUBLIC "GIF 1.0">
-<!NOTATION uri SYSTEM "urn:schemas-microsoft-com:datatypes/uri">
+<!--<!NOTATION uri SYSTEM "urn:schemas-microsoft-com:datatypes/uri">-->
 
 <!ELEMENT huge (#PCDATA)>
 
@@ -18,7 +18,7 @@
 	<!ATTLIST textfont type (monospace|serif|sans)>
 
 <!ELEMENT anchor (#PCDATA)>
-	<!ATTLIST anchor xmlns:xlink CDATA #IMPLIED "http://www.w3.org/1999/xlink" xlink:type CDATA #IMPLIED "simple" xlink:href CDATA>
+	<!ATTLIST anchor to IDREF #IMPLIED>
 
 <!ELEMENT textcolor (#PCDATA)>
 	<!ATTLIST color value CDATA>

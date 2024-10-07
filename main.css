@@ -4,11 +4,11 @@
  background-color: #111122 ;
 }
 text{
-	 width:100vw;
-	 height:100vh;
+	width:100vw;
+	height:100vh;
 }
 textsize {
-    font-size : attr(size) !important;
+   	font-size : attr(size) !important;
 }
 
 textfont[type="monospace"]{
@@ -24,82 +24,83 @@ textfont[type="sans"]{
 }
 
 huge{
-font-size: 26px;
+	font-size: 26px;
 }
 
 big{
-font-size: 22px;
+	font-size: 22px;
 }
 
 small{
-font-size: 14px;
+	font-size: 14px;
 }
 
 table {
-border: 1px solid #aaaa99;
- width: max-content;
- height: max-content;
- display:block;
+	border: 1px solid #aaaa99;
+	width: max-content;
+ 	height: max-content;
+ 	display:table;
 }
 table heading {
- display:block;
- background-color: #333344;
-border: 2px solid #aaaa99;
- width: max-content;
+ 	display:table-row;
+ 	background-color: #333344;
+	border: 2px solid #aaaa99;
+ 	width: max-content;
 }
 table row {
- display:block;
-border: 1px solid #aaaa99;
- width: max-content;
+ 	display:table-row;
+	border: 1px solid #aaaa99;
+ 	width: max-content;
 }
 table item {
-border: 1px solid #aaaa99;
+	display: table-cell;
+	border: 1px solid #aaaa99;
 }
 scroll{
-display:block;
+	display:block;
 }
 
 scroll[type="onetime"][direction="left"]{
-transform:translateX(100%);
-animation: left 15s linear;
+	transform:translateX(100%);
+	animation: left 15s linear;
 }
 scroll[type="infinite"][direction="left"]{
-transform:translateX(100%);
-animation: left 15s linear infinite;
+	transform:translateX(100%);
+	animation: left 15s linear infinite;
 }
 scroll[type="bounce"][direction="left"]{
-transform:translateX(100%);
-animation: left 15s linear infinite alternate;
+	transform:translateX(100%);
+	animation: left 15s linear infinite alternate;
 }
 scroll[type="onetime"][direction="right"]{
 	transform:translateX(0%);
-animation: right 15s linear;
+	animation: right 15s linear;
 }
 scroll[type="infinite"][direction="right"]{
-transform:translateX(0%);
-animation: right 15s linear infinite;
+	transform:translateX(0%);
+	animation: right 15s linear infinite;
 }
 scroll[type="bounce"][direction="right"]{
-transform:translateX(0%);
-animation: right 15s linear infinite alternate;
+	transform:translateX(0%);
+	animation: right 15s linear infinite alternate;
 }
 
 @keyframes left {
-0%{
-transform: translateX(100%);
-}
-100%{
-transform: translateX(-100%);
-}
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(-100%);
+	}
 }
 
 @keyframes right {
-0%{
-transform: translateX(-100%);
-}
-100%{
-transform: translateX(100%);
-}
+	0%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(100%);
+	}
 }
 
 textcolor {

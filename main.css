@@ -3,6 +3,11 @@
  color : #eeeeee;
  background-color: #111122 ;
 }
+
+anchor{
+	 pointer-events:auto;
+}
+
 text{
 	width:100vw;
 	height:100vh;
